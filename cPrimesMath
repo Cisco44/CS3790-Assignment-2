@@ -1,0 +1,22 @@
+#ifndef CPRIMESMATH
+
+#define CPRIMESMATH
+
+#include <stdio.h>
+#include <typeinfo>
+#include <pthread.h>
+#include <string>
+#include <cstdlib>
+#include <cmath>
+
+using namespace std;
+using std::string;
+
+extern int N;
+extern int M;
+extern pthread_t tid[];
+
+int isPrime(int);
+int tester(void *);
+
+#endif

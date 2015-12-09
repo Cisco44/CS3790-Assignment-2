@@ -1,0 +1,20 @@
+Author: Francisco Da Costa
+Student ID: 5026516
+
+Lab Assignment 2: Find Primes using Threads.
+
+To Build:
+	$ make
+
+	Unfortunately I do not know how to compile the java PrimeTester.java.
+To Run:
+	$ ./PrimeThreads <N> <M>
+
+Purpose:
+
+	This program takes two integers, the first being the max of a range between 1 and itself, and the second beingthe number of threads desired to be run by the program. The former value is known as N, while the latter is called M.
+
+Thus the program seperated the range into intervals of length (N/M) where M < N. It will then print the primes found, and the respective threads that found them, to the terminal.
+
+
+
